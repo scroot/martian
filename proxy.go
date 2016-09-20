@@ -413,12 +413,14 @@ func (p *Proxy) handle(ctx *Context, conn net.Conn, brw *bufio.ReadWriter) error
 		res = proxyutil.NewResponse(502, nil, req)
 		proxyutil.Warning(res.Header, err)
 	}
-	defer res.Body.Close()
-
+	//如果在这里进行body的退出关闭，当用户对body进行了重新封装时，无法关闭用户的封装对象
 	if err := p.resmod.ModifyResponse(res); err != nil {
 		log.Errorf("martian: error modifying response: %v", err)
 		proxyutil.Warning(res.Header, err)
 	}
+	// ModifyResponse处理时，有可能对Body进行了重新包装，在进行退出关闭更合理
+	defer res.Body.Close()
+
 	if session.Hijacked() {
 		log.Infof("martian: connection hijacked by response modifier")
 		return nil
