@@ -413,12 +413,13 @@ func (p *Proxy) handle(ctx *Context, conn net.Conn, brw *bufio.ReadWriter) error
 		res = proxyutil.NewResponse(502, nil, req)
 		proxyutil.Warning(res.Header, err)
 	}
-	defer res.Body.Close()
 
 	if err := p.resmod.ModifyResponse(res); err != nil {
 		log.Errorf("martian: error modifying response: %v", err)
 		proxyutil.Warning(res.Header, err)
 	}
+
+	defer res.Body.Close()
 
 	if session.Hijacked() {
 		log.Infof("martian: connection hijacked by response modifier")
