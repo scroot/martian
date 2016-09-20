@@ -21,8 +21,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/google/martian/parse"
-	"github.com/google/martian/verify"
+	"github.com/scroot/martian/parse"
+	"github.com/scroot/martian/verify"
 )
 
 const (

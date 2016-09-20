@@ -19,7 +19,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/google/martian/log"
+	"github.com/scroot/martian/log"
 )
 
 // Bucket is a generic leaky bucket that drains at a configurable interval and

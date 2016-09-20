@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/google/martian/log"
+	"github.com/scroot/martian/log"
 )
 
 type exportHandler struct {

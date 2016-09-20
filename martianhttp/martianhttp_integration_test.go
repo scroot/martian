@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/martian"
-	"github.com/google/martian/martiantest"
+	"github.com/scroot/martian"
+	"github.com/scroot/martian/martiantest"
 
-	_ "github.com/google/martian/header"
+	_ "github.com/scroot/martian/header"
 )
 
 func TestIntegration(t *testing.T) {

@@ -20,8 +20,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/google/martian"
-	"github.com/google/martian/proxyutil"
+	"github.com/scroot/martian"
+	"github.com/scroot/martian/proxyutil"
 )
 
 func TestExportHandlerServeHTTP(t *testing.T) {

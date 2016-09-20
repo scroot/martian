@@ -20,13 +20,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/martian/martiantest"
-	"github.com/google/martian/parse"
-	"github.com/google/martian/proxyutil"
-	"github.com/google/martian/verify"
+	"github.com/scroot/martian/martiantest"
+	"github.com/scroot/martian/parse"
+	"github.com/scroot/martian/proxyutil"
+	"github.com/scroot/martian/verify"
 
 	// Import to register header.Modifier with JSON parser.
-	_ "github.com/google/martian/header"
+	_ "github.com/scroot/martian/header"
 )
 
 func TestNoModifiers(t *testing.T) {

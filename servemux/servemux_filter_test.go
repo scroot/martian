@@ -17,8 +17,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/google/martian/martiantest"
-	"github.com/google/martian/proxyutil"
+	"github.com/scroot/martian/martiantest"
+	"github.com/scroot/martian/proxyutil"
 )
 
 func TestModifyRequest(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/google/martian/log"
+	"github.com/scroot/martian/log"
 )
 
 var defaultBitrate int64 = 500000000000 // 500Gbps (unlimited)

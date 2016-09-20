@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/google/martian/parse"
+	"github.com/scroot/martian/parse"
 )
 
 func TestNewQueryStringModifier(t *testing.T) {

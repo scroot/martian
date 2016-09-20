@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/google/martian/parse"
-	"github.com/google/martian/verify"
+	"github.com/scroot/martian/parse"
+	"github.com/scroot/martian/verify"
 )
 
 const errFormat = "response(%s) status code verify failure: got %d, want %d"

@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/google/martian/proxyutil"
+	"github.com/scroot/martian/proxyutil"
 )
 
 func TestRemoveHopByHopHeaders(t *testing.T) {

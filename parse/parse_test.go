@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/google/martian"
-	"github.com/google/martian/martiantest"
+	"github.com/scroot/martian"
+	"github.com/scroot/martian/martiantest"
 )
 
 func TestFromJSON(t *testing.T) {

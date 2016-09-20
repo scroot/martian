@@ -28,28 +28,28 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/google/martian"
+	"github.com/scroot/martian"
 	// side-effect importing to register with JSON API
-	_ "github.com/google/martian/body"
-	_ "github.com/google/martian/cookie"
-	_ "github.com/google/martian/fifo"
-	"github.com/google/martian/har"
+	_ "github.com/scroot/martian/body"
+	_ "github.com/scroot/martian/cookie"
+	_ "github.com/scroot/martian/fifo"
+	"github.com/scroot/martian/har"
 	// side-effect importing to register with JSON API
-	_ "github.com/google/martian/header"
-	"github.com/google/martian/httpspec"
-	mlog "github.com/google/martian/log"
-	"github.com/google/martian/martianhttp"
+	_ "github.com/scroot/martian/header"
+	"github.com/scroot/martian/httpspec"
+	mlog "github.com/scroot/martian/log"
+	"github.com/scroot/martian/martianhttp"
 	// side-effect importing to register with JSON API
-	_ "github.com/google/martian/martianurl"
-	_ "github.com/google/martian/method"
-	"github.com/google/martian/mitm"
+	_ "github.com/scroot/martian/martianurl"
+	_ "github.com/scroot/martian/method"
+	"github.com/scroot/martian/mitm"
 	// side-effect importing to register with JSON API
-	_ "github.com/google/martian/pingback"
-	_ "github.com/google/martian/priority"
-	_ "github.com/google/martian/querystring"
-	_ "github.com/google/martian/skip"
-	_ "github.com/google/martian/status"
-	"github.com/google/martian/verify"
+	_ "github.com/scroot/martian/pingback"
+	_ "github.com/scroot/martian/priority"
+	_ "github.com/scroot/martian/querystring"
+	_ "github.com/scroot/martian/skip"
+	_ "github.com/scroot/martian/status"
+	"github.com/scroot/martian/verify"
 )
 
 // Martian is a wrapper for the initialized Martian proxy

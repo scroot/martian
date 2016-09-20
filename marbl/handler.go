@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/google/martian/log"
+	"github.com/scroot/martian/log"
 
 	"golang.org/x/net/websocket"
 )

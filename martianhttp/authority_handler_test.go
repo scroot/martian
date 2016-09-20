@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/martian/mitm"
+	"github.com/scroot/martian/mitm"
 )
 
 func TestAuthorityHandler(t *testing.T) {

@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/martian/parse"
-	"github.com/google/martian/proxyutil"
+	"github.com/scroot/martian/parse"
+	"github.com/scroot/martian/proxyutil"
 )
 
 func TestBodyModifier(t *testing.T) {

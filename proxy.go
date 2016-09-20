@@ -27,9 +27,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/google/martian/log"
-	"github.com/google/martian/mitm"
-	"github.com/google/martian/proxyutil"
+	"github.com/scroot/martian/log"
+	"github.com/scroot/martian/mitm"
+	"github.com/scroot/martian/proxyutil"
 )
 
 var errClose = errors.New("closing connection")

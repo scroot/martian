@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/google/martian"
+	"github.com/scroot/martian"
 )
 
 // ModifierType is the HTTP message type.

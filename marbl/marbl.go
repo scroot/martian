@@ -43,8 +43,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/google/martian/log"
-	"github.com/google/martian/proxyutil"
+	"github.com/scroot/martian/log"
+	"github.com/scroot/martian/proxyutil"
 )
 
 // MessageType incicates whether the message represents an HTTP request or response.

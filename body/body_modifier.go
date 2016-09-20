@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/google/martian/parse"
+	"github.com/scroot/martian/parse"
 )
 
 func init() {

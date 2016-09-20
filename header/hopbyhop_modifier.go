@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/google/martian"
+	"github.com/scroot/martian"
 )
 
 // Hop-by-hop headers as defined by RFC2616.
